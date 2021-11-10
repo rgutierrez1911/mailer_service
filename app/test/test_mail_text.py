@@ -10,8 +10,6 @@ from test.fixtures import (render_engine,
                            mail_server,
                            connection_params)
 
-
-
 def test_render_engine(render_engine: EngineTemplate):
 
     template_args = {
